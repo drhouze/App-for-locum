@@ -1,0 +1,28 @@
+locum-platform/
+├── backend/
+│   ├── src/
+│   │   ├── config/
+│   │   │   ├── drive.js
+│   │   │   └── auth.js
+│   │   ├── models/
+│   │   │   ├── User.js
+│   │   │   ├── Clinic.js
+│   │   │   ├── LocumSlot.js
+│   │   │   └── AuditLog.js
+│   │   ├── controllers/
+│   │   ├── routes/
+│   │   ├── middleware/
+│   │   ├── utils/
+│   │   └── app.js
+│   ├── package.json
+│   └── .env.example
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── hooks/
+│   │   ├── context/
+│   │   └── App.js
+│   ├── package.json
+│   └── .env.example
+└── README.md
